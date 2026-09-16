@@ -2,9 +2,9 @@
 
 21 year old Software Engineering student, B.Sc. Business Information Systems @ DHBW Mannheim & SAP SE.<br>
 
-STAR student at SAP — rotations through six departments, most recently Global Private Markets in New York.<br>
+STAR (Student Training and Rotation) @ SAP, rotations through six departments, most recently Global Private Markets in New York.<br>
 
-Mathematics, quantitative finance, and data science — I test ideas by trying to break them.
+Passionate about mathematics, quantitative finance, and data science.
 
 <hr>
 

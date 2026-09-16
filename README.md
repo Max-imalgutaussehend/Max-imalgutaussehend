@@ -47,17 +47,6 @@ Python · PyTorch · hmmlearn · statsmodels · ruptures · Docker
 
 ---
 
-## Portfolio Optimization
-Personal portfolio analytics and quantitative optimization platform — a single view across multiple broker accounts.
-
-Mean-Variance (Markowitz), Minimum Variance, Maximum Sharpe, Hierarchical Risk Parity, and Black-Litterman allocation · Sharpe, volatility, and max-drawdown risk metrics · correlation heatmaps and interactive dashboards
-
-Python · pandas · NumPy · SciPy · DuckDB
-
-🔗 [Repository](https://github.com/Max-imalgutaussehend/portfolio-optimization)
-
----
-
 ## life-server
 Personal AI infrastructure on a single VPS, built to be extended for years rather than rebuilt — n8n, autonomous agents, MCP servers, Postgres, Redis, all in Docker, all reproducible from the repo.
 
@@ -66,35 +55,6 @@ Zero inbound ports besides rate-limited SSH — web traffic via an outbound Clou
 Docker Compose · network-segmented services · Ansible · autonomous LLM agents · Cloudflare Tunnel
 
 🔗 [Repository](https://github.com/Max-imalgutaussehend/life-server)
-
----
-
-## Multi-Objective Quantum Optimization Benchmark
-Benchmarking multi-objective non-variational quantum algorithms across hexagonal and square qubit topologies.
-
-Qiskit · quantum optimization
-
-🔗 [Repository](https://github.com/Max-imalgutaussehend/multi-objective-quantum-optimization-benchmark)
-
----
-
-## Crypto HFT Market Maker
-Market-making engine for crypto order books — real-time book tracking, volatility-adaptive spreads, inventory-risk skewing, and kill-switches on drawdown.
-
-Rust · OKX REST/WebSocket API
-
-🔗 [Repository](https://github.com/Max-imalgutaussehend/crypto_hft)
-
----
-
-## Greek Delta-Hedging Simulator
-Simulates delta-hedging of European call options — rebalancing a stock + option + cash portfolio and visualizing how hedge error shrinks as rebalancing frequency increases.
-
-Geometric Brownian Motion · closed-form Black-Scholes pricing and Greeks · multithreaded Monte Carlo via `rayon`
-
-Rust
-
-🔗 [Repository](https://github.com/Max-imalgutaussehend/greek-delta-hedging-simulator)
 
 <hr>
 

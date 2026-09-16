@@ -4,58 +4,110 @@
 
 STAR student at SAP — rotations through six departments, most recently Global Private Markets in New York.<br>
 
-Interested in mathematics, quantitative finance, and data science.
+Mathematics, quantitative finance, and data science — I test ideas by trying to break them.
 
 <hr>
 
 ## Tech Stack
 
-[![My Skills](https://skillicons.dev/icons?i=py,rust,ts,react,nextjs,docker&perline=6)](https://skillicons.dev)
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat-square&logo=qiskit&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
 
 <hr>
 
 # Projects
 
+## Earnings Call Alpha
+Falsifiable reproduction of arXiv:2505.16090 — does segment-level earnings-call sentiment predict abnormal returns better than whole-transcript sentiment?
+
+FinBERT sentiment scoring per Q&A segment · event-study abnormal returns vs. Fama-French 3/5-factor + momentum · nested regression for incremental R² · Probabilistic Sharpe Ratio (Bailey & López de Prado) · reports an honest **null result at n=16** instead of a p-hacked positive
+
+Python · PyTorch/transformers · statsmodels · Docker
+
+🔗 [Repository](https://github.com/Max-imalgutaussehend/earnings-call-alpha)
+
+---
+
+## Regime Lens
+Can a time-series foundation model's internal representations detect market regimes without being trained to?
+
+Extracts hidden-state embeddings from Google's TimesFM (and Chronos, for validation) · UMAP + k-Means clustering vs. classical baselines — Gaussian HMM, Markov-switching, PELT changepoint detection · evaluated on crisis-window overlap (2008, 2020, 2022, 2023), cluster quality, and walk-forward backtest with transaction costs
+
+Python · PyTorch · hmmlearn · statsmodels · ruptures · Docker
+
+🔗 [Repository](https://github.com/Max-imalgutaussehend/regime-lens)
+
+---
+
 ## Portfolio Optimization
 Personal portfolio analytics and quantitative optimization platform — a single view across multiple broker accounts.
 
-Mean-Variance (Markowitz), Minimum Variance, Maximum Sharpe, Hierarchical Risk Parity, and Black-Litterman allocation · Sharpe ratio, volatility, and max-drawdown risk metrics · Correlation heatmaps and interactive dashboards · Python · pandas · NumPy · SciPy · DuckDB · yfinance
+Mean-Variance (Markowitz), Minimum Variance, Maximum Sharpe, Hierarchical Risk Parity, and Black-Litterman allocation · Sharpe, volatility, and max-drawdown risk metrics · correlation heatmaps and interactive dashboards
+
+Python · pandas · NumPy · SciPy · DuckDB
 
 🔗 [Repository](https://github.com/Max-imalgutaussehend/portfolio-optimization)
 
 ---
 
-## Greek Delta-Hedging Simulator
-Simulates delta-hedging of European call options — rebalancing a stock + option + cash portfolio against price moves and visualizing how hedge error shrinks as rebalancing frequency increases.
+## life-server
+Personal AI infrastructure on a single VPS, built to be extended for years rather than rebuilt — n8n, autonomous agents, MCP servers, Postgres, Redis, all in Docker, all reproducible from the repo.
 
-Geometric Brownian Motion price paths · closed-form Black-Scholes pricing and Greeks · multithreaded Monte Carlo via `rayon` · memory-mapped RNG state
+Zero inbound ports besides rate-limited SSH — web traffic via an outbound Cloudflare Tunnel · agents that execute model-chosen code run on an isolated network with no route to the data layer, verified by 20/20 sandbox-escape assertions · secrets encrypted at rest in Git (sops/AES-256-GCM) · config-as-code: every service declared once, Caddy routes/tunnel ingress/docs generated from it
+
+Docker Compose · network-segmented services · Ansible · autonomous LLM agents · Cloudflare Tunnel
+
+🔗 [Repository](https://github.com/Max-imalgutaussehend/life-server)
+
+---
+
+## Multi-Objective Quantum Optimization Benchmark
+Benchmarking multi-objective non-variational quantum algorithms across hexagonal and square qubit topologies.
+
+Qiskit · quantum optimization
+
+🔗 [Repository](https://github.com/Max-imalgutaussehend/multi-objective-quantum-optimization-benchmark)
+
+---
+
+## Crypto HFT Market Maker
+Market-making engine for crypto order books — real-time book tracking, volatility-adaptive spreads, inventory-risk skewing, and kill-switches on drawdown.
+
+Rust · OKX REST/WebSocket API
+
+🔗 [Repository](https://github.com/Max-imalgutaussehend/crypto_hft)
+
+---
+
+## Greek Delta-Hedging Simulator
+Simulates delta-hedging of European call options — rebalancing a stock + option + cash portfolio and visualizing how hedge error shrinks as rebalancing frequency increases.
+
+Geometric Brownian Motion · closed-form Black-Scholes pricing and Greeks · multithreaded Monte Carlo via `rayon`
 
 Rust
 
 🔗 [Repository](https://github.com/Max-imalgutaussehend/greek-delta-hedging-simulator)
-
----
-
-## Navier-Stokes 2D Simulation
-Interactive solver for the 2D incompressible Navier-Stokes equations on the lid-driven cavity benchmark, with live visualization of pressure, velocity, and vorticity fields.
-
-Chorin projection (fractional-step) method · finite differences on a staggered grid · Jacobi pressure solver · Streamlit UI
-
-Python · NumPy · Matplotlib · Docker
-
-🔗 [Repository](https://github.com/Max-imalgutaussehend/navier_stokes_simulations)
 
 <hr>
 
 ## Beyond the terminal
 
 10+ years of competitive wrestling, training across several martial arts, and running — Pfälzerwald Marathon 2025.
+
+<hr>
+
+## Contribution Graph
+
+![Snake animation](https://raw.githubusercontent.com/Max-imalgutaussehend/Max-imalgutaussehend/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![Snake animation](https://raw.githubusercontent.com/Max-imalgutaussehend/Max-imalgutaussehend/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 <hr>
 

@@ -1,110 +1,124 @@
-<pre>
-               ''..
-              .''..
-             ..'...         ..
-            .... ...   ':::::`'    .
-            ........  '+~~---;:;`'';'''.  .
-         ....'''`''' .`:`;-+~==+;-;-;:''':;'...
-        ..'''::;:```::'`:;~**x++-~;+=:'':;:::++:..
-     . '''`;~**x***==++++++=+**XX++=;:-=+--~+*X=-:'' .
-    .`':-~~=x#%%@@@@@%%#XXx*=*Xx~;;~Xx**=*XXX%%X*=:'`:`
-    ..'-+*xXX#%%@@@@@@@@@@%##X=++=X####%%@%%%%#Xx=`'`--
-     '`~=*xX####%%%%@@@@@@@%#%%%%%%%%%@@@@@@@@@X;. .:=+
-   .':-+*xXX####%#%%%%%%%%%%@%%%%@@@@@@@%%%@@@#=-;-+xX*`'.'
-   :-~~=xXXX###%####%%%%%%%%@@@%%%%%%@@%%%%%%%%%%%%%%#X~::'
-  '--~++xXXX%%#%%%%%%%%%%%%%%@@%%%%%%@%%%%%%%%%%#%####X+~;'
- .:--~~+*xxXXX#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%####XXXX=+;`
-  ...'..''':;---;;:;----~+=*XXXXXX%%%%%X#%%#####XXXXXX*=++:
-   '-~; ':--;:;::::::;;-x*+:-=***xxXXXxxXxx*xXXXXxxxx**=+~-
- ';=*=-.;+=*+++~~~++-:`:~~=~::-~+*xXx**=~-;:::;-+=****=+~-:
-.:-+~-::*xx*=~;``'..''`'`:-~-''   ';:;~:```'``;;``:-~+++-;:
-::;~+=--X#XXx+--~~~~--+~;::;;' :-+~`   ''::::-=-::`'''`:`:'
-:;-+=**-##%%%%#**======**=-:' .=X##~ .--::`'.`-:..':``'''
-:;-+*xX~X%%%@@@%###XXxxx*=+' .-*##X- '+--;:'.':'``'``````'
-:;~=xXXx~#%%@@@@@%%%###Xx=; .:~X##X- `++~~-+++-`..''''`:..
-::-=xXXXXXXX%%@@@@@@%%#=-`':-~*#%X*+ .+x*=++++~-;;;:'.....
-::;=****==*XXx***==+-;::;;;~=*X%#x**; 'X#XXxxxx*===-`''`'
-:;~*X##%%#X*=+~-~~~---;-~--=xX#%#Xx*+`'+##%####%#x*+:;::.     max@rommel ───────────────────────────────────────────
-;-+*X##%%####Xx*=*x*~`:---~*X%@@%#X*=---+#%%%%@@%#x=---'.       OS: ................................ Linux (Omarchy)
--~+x%%%#xXXXXXXXXXx*:'.'.':=X%%%XX****~-~~~*xXXXXX*=~-::'       Uptime: ................................... 21 years
--+*X%@@%#%%XXXXXx***=;'....:+=*=;:`';+**~-;:-~++++=**=~'        Host: ....................... DHBW Mannheim &amp; SAP SE
-~+*X%@@%%@@%x*====****-'...'``;-~+++*xxXXXx+~xX###Xx*=~'        Kernel: ............. Software Engineering, B.Sc. WI
-+=*X%@@%%@@@X~`''`:-~++;`'.';-+=***xxxXXXXXX~+xX#XXx*=-
-+=*X%%@%%%@@%X+::`;;++----~+******xxXXXXXX#X*-=xXxxx*~`         Languages.Programming: ................ Python, Rust
- =**##%%#%%%%#X*~;-:x*x%XXX=-~+---;-:::-=**XX=xXXX#X+           Languages.Real: .................... German, English
- +=*X##%##%%%%#X=~-:`.:=#@@@@@@%%XXX+;' .;*XxX#XX#X*
- -~*xxXXXX#%%%#Xx=+~~~~;;~=*%@@%%*#XX=~;*X#X#%XX##x             Hobbies.Software: ....... Quant Finance, ML, Homelab
- ;--=**x**x#%%#Xx*******xXX**=+----++**#%%#XXXXX--              Hobbies.Sport: .................. Wrestling, Running
-  :;;~+=*==X##%XxxxxXXXXxxxx**=++==*X##%%%XXXXx;
-  ;;;;-++++*X##XxxxXX##XXXXXXxxxxXxX###%#x*x***               - Contact ────────────────────────────────────────────
-  ;;;::--~~+*XX##XXXxXX######XXXxxxXX##X****=*                  Email.Personal: ..................... max.rml@web.de
-  ;;;;:::::-~+=*XXxXXX#%%%%XXXXxxXXXXX****=+++                  Website: .............................. maxrommel.de
-   ;;;;:::`::;;-=*xX#%%@%%%%#XxXXXX*==++++~-~+                  LinkedIn: ................................ maxrommel
-   ;;;:::::`````;~=*xXX###%%#XXxx*=+++~~~~-+=x
-   ;;;::::::``````:-++=****xx**++~~~~~~~~~+*X#                - GitHub Stats ───────────────────────────────────────
-   :;;::::::````''```:::;;;--;------~~~+=*x#%%                  Repos: ......... 42 | Followers: ....... 9
-   ';;;::::::`::::::::::::::;;;--~~~~++*X#%%%%%                 Commits: .. 1,180 (577 in 12 mo) | Stars: .. 8
-   ';;;;::`:::::---------;;-----~+++==*X#%@@%%%
-    ----;:``:;-~++===+++++++++++===**xX%%@@@%%#
-    +*xX*+:`:;~=*XXXXXXXXXXXXXXx***xxX%%@@@@%%X
-    ~+*xx=-::;~*X#%%%%@@@@%%%##XXXX##%%%@@@@%X'
-   ';~=*x=-::;-=X#%@@@@@@@@%##XXXX##%%%%@@@@X`
- '':;-+**=-:`:;~=X%@@@@@@@%#XXXXXX#%%%%%@@@%`
-'```;--+**+;``::;-+#@%%%#XXXXXXXX####%%%%%X:           ..':
-````;--+=*x*-:`::``-###XxxxxxXXXX####%%%#-              .::
-:``':-~~+*xx=~:::;`'+xXxxxXXXXXX###%%%%X`             ..```
-</pre>
+<p align="center">
+  <img src="assets/profile.png" alt="max@rommel" width="900">
+</p>
 
 <hr>
 
-<div align="center">
+<h2 align="center">Skills</h2>
 
-**Python**<br>
-<img src="https://skillicons.dev/icons?i=python&perline=1" height="64" alt="Python">
+<p align="center">
+<b>Languages</b><br><br>
+<img src="assets/icons/python.svg" width="64" height="64" alt="Python" title="Python">
+<img src="assets/icons/rust.svg" width="64" height="64" alt="Rust" title="Rust">
+<img src="assets/icons/typescript.svg" width="64" height="64" alt="TypeScript" title="TypeScript">
+<img src="assets/icons/bash.svg" width="64" height="64" alt="Bash" title="Bash">
+</p>
 
-<br>
+<p align="center">
+<b>ML, Quant &amp; Data Science</b><br><br>
+<img src="assets/icons/pytorch.svg" width="64" height="64" alt="PyTorch" title="PyTorch">
+<img src="assets/icons/tensorflow.svg" width="64" height="64" alt="TensorFlow" title="TensorFlow">
+<img src="assets/icons/sklearn.svg" width="64" height="64" alt="scikit-learn" title="scikit-learn">
+<img src="assets/icons/huggingface.svg" width="64" height="64" alt="Hugging Face" title="Hugging Face">
+<img src="assets/icons/qiskit.svg" width="64" height="64" alt="Qiskit" title="Qiskit">
+<img src="assets/icons/numpy.svg" width="64" height="64" alt="NumPy" title="NumPy">
+<img src="assets/icons/pandas.svg" width="64" height="64" alt="pandas" title="pandas">
+<img src="assets/icons/opencv.svg" width="64" height="64" alt="OpenCV" title="OpenCV">
+</p>
 
-**Rust**<br>
-<img src="https://skillicons.dev/icons?i=rust&perline=1" height="64" alt="Rust">
+<p align="center">
+<b>Systems &amp; DevOps</b><br><br>
+<img src="assets/icons/linux.svg" width="64" height="64" alt="Linux" title="Linux">
+<img src="assets/icons/docker.svg" width="64" height="64" alt="Docker" title="Docker">
+<img src="assets/icons/kubernetes.svg" width="64" height="64" alt="Kubernetes" title="Kubernetes">
+<img src="assets/icons/k3s.svg" width="64" height="64" alt="k3s" title="k3s">
+<img src="assets/icons/helm.svg" width="64" height="64" alt="Helm" title="Helm">
+<img src="assets/icons/argocd.svg" width="64" height="64" alt="Argo CD" title="Argo CD">
+<img src="assets/icons/terraform.svg" width="64" height="64" alt="Terraform / OpenTofu" title="Terraform / OpenTofu">
+<img src="assets/icons/ansible.svg" width="64" height="64" alt="Ansible" title="Ansible">
+<img src="assets/icons/cilium.svg" width="64" height="64" alt="Cilium" title="Cilium">
+<img src="assets/icons/jenkins.svg" width="64" height="64" alt="Jenkins" title="Jenkins">
+<img src="assets/icons/githubactions.svg" width="64" height="64" alt="GitHub Actions" title="GitHub Actions">
+<img src="assets/icons/nginx.svg" width="64" height="64" alt="nginx" title="nginx">
+<img src="assets/icons/prometheus.svg" width="64" height="64" alt="Prometheus" title="Prometheus">
+<img src="assets/icons/grafana.svg" width="64" height="64" alt="Grafana" title="Grafana">
+</p>
 
-<br>
-
-**Systems & DevOps**<br>
-<img src="https://skillicons.dev/icons?i=kubernetes" height="64" alt="Kubernetes">
-<img src="https://skillicons.dev/icons?i=docker" height="64" alt="Docker">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg" height="64" alt="Helm">
-<img src="https://skillicons.dev/icons?i=terraform" height="64" alt="Terraform">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg" height="64" alt="ArgoCD">
-<img src="https://skillicons.dev/icons?i=jenkins" height="64" alt="Jenkins">
-
-<br>
-
-**Industry-Specific: ML & Quantum**<br>
-<img src="https://skillicons.dev/icons?i=tensorflow" height="64" alt="TensorFlow">
-<img src="https://skillicons.dev/icons?i=pytorch" height="64" alt="PyTorch">
-<img src="https://cdn.simpleicons.org/qiskit/6929C4" height="64" alt="Qiskit">
-
-</div>
+<p align="center">
+<b>Databases &amp; Messaging</b><br><br>
+<img src="assets/icons/cassandra.svg" width="64" height="64" alt="Apache Cassandra" title="Apache Cassandra">
+<img src="assets/icons/scylladb.svg" width="64" height="64" alt="ScyllaDB" title="ScyllaDB">
+<img src="assets/icons/postgres.svg" width="64" height="64" alt="PostgreSQL" title="PostgreSQL">
+<img src="assets/icons/redis.svg" width="64" height="64" alt="Redis" title="Redis">
+<img src="assets/icons/kafka.svg" width="64" height="64" alt="Apache Kafka" title="Apache Kafka">
+<img src="assets/icons/sqlite.svg" width="64" height="64" alt="SQLite" title="SQLite">
+</p>
 
 <hr>
+<h2 align="center">Latest</h2>
 
-## Latest
+<h3 align="center">🔥 Blaze</h3>
+<p align="center"><b>Fast, unified Rust tooling: lint, fmt, test, deny. One tool instead of four.</b><br><br>
+<img src="https://img.shields.io/badge/Rust-F46623?style=flat-square&logo=rust&logoColor=white" alt="Rust"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"><br><br>
+<a href="https://github.com/Max-imalgutaussehend/blaze"><img src="https://img.shields.io/badge/View_on_GitHub-blaze-181717?style=for-the-badge&logo=github" alt="blaze"></a></p>
 
-### 🦀 The cqlz family
-Rust tooling for Cassandra and ScyllaDB: analyze, type, migrate, profile, lint. The goal is to catch CQL mistakes before runtime.
-
-| Project | What it does |
-| --- | --- |
-| [**cqlz**](https://github.com/Max-imalgutaussehend/cqlz) | The family hub: website and cross-project benchmarks |
-| [**cqlc**](https://github.com/Max-imalgutaussehend/cqlc) | Static CQL analyzer and Rust code generator, in the spirit of sqlc |
-| [**cqlx**](https://github.com/Max-imalgutaussehend/cqlx) | Typesafe, zero-overhead code-first ORM for ScyllaDB/Cassandra |
-| [**cql-ai**](https://github.com/Max-imalgutaussehend/cql-ai) | Tiny CQL-token Transformer that detects CQL anti-patterns in CI |
-| [**cqlint**](https://github.com/Max-imalgutaussehend/cqlint) | Very fast linter and formatter for CQL |
-| [**cqlprof**](https://github.com/Max-imalgutaussehend/cqlprof) | `EXPLAIN` for CQL: tracing-based profiler |
-| [**cql-migrate**](https://github.com/Max-imalgutaussehend/cql-migrate) | Checksummed, locked schema migrations with diff and drift detection |
-| [**cqlz-lab**](https://github.com/Max-imalgutaussehend/cqlz-lab) | Alpha research: RL schema synthesis and Markov workload models |
-
-### 🔥 Blaze
-Fast, unified Rust tooling: lint, fmt, test, deny, in one tool.
-
-🔗 [Repository](https://github.com/Max-imalgutaussehend/blaze)
+<h3 align="center">🦀 The cqlz family</h3>
+<p align="center"><i>Rust tooling for Cassandra and ScyllaDB: catch CQL mistakes before runtime.</i></p>
+<table>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/cqlz">cqlz</a></h4>
+<sub><b>Family hub</b></sub><br>
+Website and cross-project benchmarks for the whole family.<br><br>
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html&logoColor=white" alt="HTML">
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/cqlc">cqlc</a></h4>
+<sub><b>Analyzer + codegen</b></sub><br>
+Static CQL analyzer and Rust code generator, in the spirit of sqlc.<br><br>
+<img src="https://img.shields.io/badge/Rust-F46623?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/cqlx">cqlx</a></h4>
+<sub><b>ORM</b></sub><br>
+Typesafe, zero-overhead code-first ORM for ScyllaDB and Cassandra.<br><br>
+<img src="https://img.shields.io/badge/Rust-F46623?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/cql-ai">cql-ai</a></h4>
+<sub><b>Anti-pattern detection</b></sub><br>
+Tiny CQL-token Transformer that detects CQL anti-patterns in CI.<br><br>
+<img src="https://img.shields.io/badge/Rust-F46623?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/cqlint">cqlint</a></h4>
+<sub><b>Linter + formatter</b></sub><br>
+A very fast linter and formatter for CQL.<br><br>
+<img src="https://img.shields.io/badge/Rust-F46623?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/cqlprof">cqlprof</a></h4>
+<sub><b>Profiler</b></sub><br>
+EXPLAIN for CQL: tracing-based profiler for Cassandra and ScyllaDB.<br><br>
+<img src="https://img.shields.io/badge/Rust-F46623?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/cql-migrate">cql-migrate</a></h4>
+<sub><b>Migrations</b></sub><br>
+Checksummed, locked schema migrations with diff and drift detection.<br><br>
+<img src="https://img.shields.io/badge/Rust-F46623?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/cqlz-lab">cqlz-lab</a></h4>
+<sub><b>Research (alpha)</b></sub><br>
+RL schema synthesis and Markov workload models.<br><br>
+<img src="https://img.shields.io/badge/Rust-F46623?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+</td>
+</tr>
+</table>

@@ -1,74 +1,110 @@
-# Max Rommel
-
-21 year old Software Engineering student, B.Sc. Business Information Systems @ DHBW Mannheim & SAP SE.<br>
-
-STAR (Student Training and Rotation) @ SAP, rotations through six departments, most recently Global Private Markets in New York.<br>
-
-Passionate about mathematics, quantitative finance, and data science.
-
-<hr>
-
-## Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=flat-square&logo=qiskit&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-
-<hr>
-
-# Projects
-
-## Earnings Call Alpha
-Falsifiable reproduction of arXiv:2505.16090 — does segment-level earnings-call sentiment predict abnormal returns better than whole-transcript sentiment?
-
-FinBERT sentiment scoring per Q&A segment · event-study abnormal returns vs. Fama-French 3/5-factor + momentum · nested regression for incremental R² · Probabilistic Sharpe Ratio (Bailey & López de Prado) · reports an honest **null result at n=16** instead of a p-hacked positive
-
-Python · PyTorch/transformers · statsmodels · Docker
-
-🔗 [Repository](https://github.com/Max-imalgutaussehend/earnings-call-alpha)
-
----
-
-## Regime Lens
-Can a time-series foundation model's internal representations detect market regimes without being trained to?
-
-Extracts hidden-state embeddings from Google's TimesFM (and Chronos, for validation) · UMAP + k-Means clustering vs. classical baselines — Gaussian HMM, Markov-switching, PELT changepoint detection · evaluated on crisis-window overlap (2008, 2020, 2022, 2023), cluster quality, and walk-forward backtest with transaction costs
-
-Python · PyTorch · hmmlearn · statsmodels · ruptures · Docker
-
-🔗 [Repository](https://github.com/Max-imalgutaussehend/regime-lens)
-
----
-
-## life-server
-Personal AI infrastructure on a single VPS, built to be extended for years rather than rebuilt — n8n, autonomous agents, MCP servers, Postgres, Redis, all in Docker, all reproducible from the repo.
-
-Zero inbound ports besides rate-limited SSH — web traffic via an outbound Cloudflare Tunnel · agents that execute model-chosen code run on an isolated network with no route to the data layer, verified by 20/20 sandbox-escape assertions · secrets encrypted at rest in Git (sops/AES-256-GCM) · config-as-code: every service declared once, Caddy routes/tunnel ingress/docs generated from it
-
-Docker Compose · network-segmented services · Ansible · autonomous LLM agents · Cloudflare Tunnel
-
-🔗 [Repository](https://github.com/Max-imalgutaussehend/life-server)
-
-<hr>
-
-## Beyond the terminal
-
-10+ years of competitive wrestling, training across several martial arts, and running — Pfälzerwald Marathon 2025.
+<pre>
+               ''..
+              .''..
+             ..'...         ..
+            .... ...   ':::::`'    .
+            ........  '+~~---;:;`'';'''.  .
+         ....'''`''' .`:`;-+~==+;-;-;:''':;'...
+        ..'''::;:```::'`:;~**x++-~;+=:'':;:::++:..
+     . '''`;~**x***==++++++=+**XX++=;:-=+--~+*X=-:'' .
+    .`':-~~=x#%%@@@@@%%#XXx*=*Xx~;;~Xx**=*XXX%%X*=:'`:`
+    ..'-+*xXX#%%@@@@@@@@@@%##X=++=X####%%@%%%%#Xx=`'`--
+     '`~=*xX####%%%%@@@@@@@%#%%%%%%%%%@@@@@@@@@X;. .:=+
+   .':-+*xXX####%#%%%%%%%%%%@%%%%@@@@@@@%%%@@@#=-;-+xX*`'.'
+   :-~~=xXXX###%####%%%%%%%%@@@%%%%%%@@%%%%%%%%%%%%%%#X~::'
+  '--~++xXXX%%#%%%%%%%%%%%%%%@@%%%%%%@%%%%%%%%%%#%####X+~;'
+ .:--~~+*xxXXX#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%####XXXX=+;`
+  ...'..''':;---;;:;----~+=*XXXXXX%%%%%X#%%#####XXXXXX*=++:
+   '-~; ':--;:;::::::;;-x*+:-=***xxXXXxxXxx*xXXXXxxxx**=+~-
+ ';=*=-.;+=*+++~~~++-:`:~~=~::-~+*xXx**=~-;:::;-+=****=+~-:
+.:-+~-::*xx*=~;``'..''`'`:-~-''   ';:;~:```'``;;``:-~+++-;:
+::;~+=--X#XXx+--~~~~--+~;::;;' :-+~`   ''::::-=-::`'''`:`:'
+:;-+=**-##%%%%#**======**=-:' .=X##~ .--::`'.`-:..':``'''
+:;-+*xX~X%%%@@@%###XXxxx*=+' .-*##X- '+--;:'.':'``'``````'
+:;~=xXXx~#%%@@@@@%%%###Xx=; .:~X##X- `++~~-+++-`..''''`:..
+::-=xXXXXXXX%%@@@@@@%%#=-`':-~*#%X*+ .+x*=++++~-;;;:'.....
+::;=****==*XXx***==+-;::;;;~=*X%#x**; 'X#XXxxxx*===-`''`'
+:;~*X##%%#X*=+~-~~~---;-~--=xX#%#Xx*+`'+##%####%#x*+:;::.     max@rommel ───────────────────────────────────────────
+;-+*X##%%####Xx*=*x*~`:---~*X%@@%#X*=---+#%%%%@@%#x=---'.       OS: ................................ Linux (Omarchy)
+-~+x%%%#xXXXXXXXXXx*:'.'.':=X%%%XX****~-~~~*xXXXXX*=~-::'       Uptime: ................................... 21 years
+-+*X%@@%#%%XXXXXx***=;'....:+=*=;:`';+**~-;:-~++++=**=~'        Host: ....................... DHBW Mannheim &amp; SAP SE
+~+*X%@@%%@@%x*====****-'...'``;-~+++*xxXXXx+~xX###Xx*=~'        Kernel: ............. Software Engineering, B.Sc. WI
++=*X%@@%%@@@X~`''`:-~++;`'.';-+=***xxxXXXXXX~+xX#XXx*=-
++=*X%%@%%%@@%X+::`;;++----~+******xxXXXXXX#X*-=xXxxx*~`         Languages.Programming: ................ Python, Rust
+ =**##%%#%%%%#X*~;-:x*x%XXX=-~+---;-:::-=**XX=xXXX#X+           Languages.Real: .................... German, English
+ +=*X##%##%%%%#X=~-:`.:=#@@@@@@%%XXX+;' .;*XxX#XX#X*
+ -~*xxXXXX#%%%#Xx=+~~~~;;~=*%@@%%*#XX=~;*X#X#%XX##x             Hobbies.Software: ....... Quant Finance, ML, Homelab
+ ;--=**x**x#%%#Xx*******xXX**=+----++**#%%#XXXXX--              Hobbies.Sport: .................. Wrestling, Running
+  :;;~+=*==X##%XxxxxXXXXxxxx**=++==*X##%%%XXXXx;
+  ;;;;-++++*X##XxxxXX##XXXXXXxxxxXxX###%#x*x***               - Contact ────────────────────────────────────────────
+  ;;;::--~~+*XX##XXXxXX######XXXxxxXX##X****=*                  Email.Personal: ..................... max.rml@web.de
+  ;;;;:::::-~+=*XXxXXX#%%%%XXXXxxXXXXX****=+++                  Website: .............................. maxrommel.de
+   ;;;;:::`::;;-=*xX#%%@%%%%#XxXXXX*==++++~-~+                  LinkedIn: ................................ maxrommel
+   ;;;:::::`````;~=*xXX###%%#XXxx*=+++~~~~-+=x
+   ;;;::::::``````:-++=****xx**++~~~~~~~~~+*X#                - GitHub Stats ───────────────────────────────────────
+   :;;::::::````''```:::;;;--;------~~~+=*x#%%                  Repos: ......... 42 | Followers: ....... 9
+   ';;;::::::`::::::::::::::;;;--~~~~++*X#%%%%%                 Commits: .. 1,180 (577 in 12 mo) | Stars: .. 8
+   ';;;;::`:::::---------;;-----~+++==*X#%@@%%%
+    ----;:``:;-~++===+++++++++++===**xX%%@@@%%#
+    +*xX*+:`:;~=*XXXXXXXXXXXXXXx***xxX%%@@@@%%X
+    ~+*xx=-::;~*X#%%%%@@@@%%%##XXXX##%%%@@@@%X'
+   ';~=*x=-::;-=X#%@@@@@@@@%##XXXX##%%%%@@@@X`
+ '':;-+**=-:`:;~=X%@@@@@@@%#XXXXXX#%%%%%@@@%`
+'```;--+**+;``::;-+#@%%%#XXXXXXXX####%%%%%X:           ..':
+````;--+=*x*-:`::``-###XxxxxxXXXX####%%%#-              .::
+:``':-~~+*xx=~:::;`'+xXxxxXXXXXX###%%%%X`             ..```
+</pre>
 
 <hr>
 
-## Contribution Graph
+<div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/Max-imalgutaussehend/Max-imalgutaussehend/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-![Snake animation](https://raw.githubusercontent.com/Max-imalgutaussehend/Max-imalgutaussehend/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+**Python**<br>
+<img src="https://skillicons.dev/icons?i=python&perline=1" height="64" alt="Python">
+
+<br>
+
+**Rust**<br>
+<img src="https://skillicons.dev/icons?i=rust&perline=1" height="64" alt="Rust">
+
+<br>
+
+**Systems & DevOps**<br>
+<img src="https://skillicons.dev/icons?i=kubernetes" height="64" alt="Kubernetes">
+<img src="https://skillicons.dev/icons?i=docker" height="64" alt="Docker">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg" height="64" alt="Helm">
+<img src="https://skillicons.dev/icons?i=terraform" height="64" alt="Terraform">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg" height="64" alt="ArgoCD">
+<img src="https://skillicons.dev/icons?i=jenkins" height="64" alt="Jenkins">
+
+<br>
+
+**Industry-Specific: ML & Quantum**<br>
+<img src="https://skillicons.dev/icons?i=tensorflow" height="64" alt="TensorFlow">
+<img src="https://skillicons.dev/icons?i=pytorch" height="64" alt="PyTorch">
+<img src="https://cdn.simpleicons.org/qiskit/6929C4" height="64" alt="Qiskit">
+
+</div>
 
 <hr>
 
-📍 Mannheim, Germany · 🌐 [maxrommel.de](https://maxrommel.de) · 💼 [LinkedIn](https://linkedin.com/in/maxrommel)
+## Latest
+
+### 🦀 The cqlz family
+Rust tooling for Cassandra and ScyllaDB: analyze, type, migrate, profile, lint. The goal is to catch CQL mistakes before runtime.
+
+| Project | What it does |
+| --- | --- |
+| [**cqlz**](https://github.com/Max-imalgutaussehend/cqlz) | The family hub: website and cross-project benchmarks |
+| [**cqlc**](https://github.com/Max-imalgutaussehend/cqlc) | Static CQL analyzer and Rust code generator, in the spirit of sqlc |
+| [**cqlx**](https://github.com/Max-imalgutaussehend/cqlx) | Typesafe, zero-overhead code-first ORM for ScyllaDB/Cassandra |
+| [**cql-ai**](https://github.com/Max-imalgutaussehend/cql-ai) | Tiny CQL-token Transformer that detects CQL anti-patterns in CI |
+| [**cqlint**](https://github.com/Max-imalgutaussehend/cqlint) | Very fast linter and formatter for CQL |
+| [**cqlprof**](https://github.com/Max-imalgutaussehend/cqlprof) | `EXPLAIN` for CQL: tracing-based profiler |
+| [**cql-migrate**](https://github.com/Max-imalgutaussehend/cql-migrate) | Checksummed, locked schema migrations with diff and drift detection |
+| [**cqlz-lab**](https://github.com/Max-imalgutaussehend/cqlz-lab) | Alpha research: RL schema synthesis and Markov workload models |
+
+### 🔥 Blaze
+Fast, unified Rust tooling: lint, fmt, test, deny, in one tool.
+
+🔗 [Repository](https://github.com/Max-imalgutaussehend/blaze)

@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="assets/profile.png" alt="max@rommel" width="900">
+  <img src="assets/portrait.png" alt="ASCII portrait of Max Rommel" width="560">
+</p>
+
+<p align="center">
+  <img src="assets/info.png" alt="max@rommel: OS, host, languages, hobbies, contact, GitHub stats" width="520">
 </p>
 
 <hr>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/portrait.png" alt="ASCII portrait of Max Rommel" width="560">
+  <img src="assets/portrait-v2.png" alt="ASCII portrait of Max Rommel" width="560">
 </p>
 
 <p align="center">

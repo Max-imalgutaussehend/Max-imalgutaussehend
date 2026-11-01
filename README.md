@@ -122,3 +122,57 @@ RL schema synthesis and Markov workload models.<br><br>
 </td>
 </tr>
 </table>
+
+<hr>
+
+<h2 align="center">More</h2>
+
+<h3 align="center">📈 Quant &amp; Research</h3>
+<table>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/earnings-call-alpha">earnings-call-alpha</a></h4>
+<sub><b>Falsifiable replication</b></sub><br>
+Segment-level earnings-call sentiment vs. abnormal returns (arXiv:2505.16090), with an honestly reported null result.<br><br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/regime-lens">regime-lens</a></h4>
+<sub><b>Market regimes</b></sub><br>
+Do TimesFM and Chronos embeddings detect market regimes? Tested against HMM, Markov-switching and PELT baselines.<br><br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/volt-dashboard">volt-dashboard</a></h4>
+<sub><b>Live demo</b></sub><br>
+Static build of the VOLT options quant research dashboard, served via GitHub Pages. Simulation only.<br><br>
+<img src="https://img.shields.io/badge/Demo-2EA043?style=flat-square&logo=githubpages&logoColor=white" alt="Demo">
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/greek-delta-hedging-simulator">greek-delta-hedging-simulator</a></h4>
+<sub><b>Simulation</b></sub><br>
+Delta-hedging simulator: how the hedge error shrinks with rebalancing frequency.<br><br>
+<img src="https://img.shields.io/badge/Options-6E7681?style=flat-square&logo=options&logoColor=white" alt="Options"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+</td>
+</tr>
+</table>
+
+<h3 align="center">☁️ Platform</h3>
+<table>
+<tr>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/aevia">aevia</a></h4>
+<sub><b>Personal platform</b></sub><br>
+A personal platform on one server, rebuilt from Git: OpenTofu, k3s, Argo CD, Cilium, SOPS, Cloudflare, Authentik.<br><br>
+<img src="https://img.shields.io/badge/k3s-FFC61C?style=flat-square&logo=k3s&logoColor=white" alt="k3s"> <img src="https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white" alt="Argo CD"> <img src="https://img.shields.io/badge/OpenTofu-FFDA18?style=flat-square&logo=opentofu&logoColor=white" alt="OpenTofu">
+</td>
+<td width="50%" valign="top">
+<h4><a href="https://github.com/Max-imalgutaussehend/aevia-mcp">aevia-mcp</a></h4>
+<sub><b>MCP server</b></sub><br>
+Read-only cluster, metrics, logs and Obsidian vault access for Claude, over Streamable HTTP with OAuth.<br><br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/MCP-6E40C9?style=flat-square&logo=anthropic&logoColor=white" alt="MCP">
+</td>
+</tr>
+</table>
